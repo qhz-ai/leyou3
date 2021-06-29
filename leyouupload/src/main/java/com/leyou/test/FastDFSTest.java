@@ -38,7 +38,11 @@ public class FastDFSTest {
         StorePath storePath = this.storageClient.uploadImageAndCrtThumbImage(new FileInputStream(file), file.length(), "jpg", null);
         //带分组的路径
         System.out.println(storePath.getFullPath());
-        //不带分
+        //不带分组的路径
+        System.out.println(storePath.getPath());
+        //获取缩略图路径
+        String path = thumbImageConfig.getThumbImagePath(storePath.getPath());
+        System.out.println(path);
     }
 
 }
