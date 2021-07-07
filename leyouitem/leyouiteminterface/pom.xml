@@ -18,5 +18,15 @@
         <artifactId>persistence-api</artifactId>
         <version>1.0</version>
     </dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>5.3.6</version>
+    </dependency>
+    <dependency>
+        <groupId>com.leyou.search</groupId>
+        <artifactId>leyou-search</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </dependency>
 </dependencies>
 </project>
